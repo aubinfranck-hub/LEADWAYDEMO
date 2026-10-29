@@ -299,6 +299,10 @@ h1:focus,h1:focus-visible{outline:none}
 
 .wm{display:flex;flex-direction:column;line-height:1.1}.wm b{font-size:20px;letter-spacing:.2px}.wm span{font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#C2410C;opacity:1}
 
+.demofoot{position:fixed;left:0;right:0;bottom:0;z-index:50;background:#FFEDD5;color:#9A3412;font:700 10px/1 system-ui,sans-serif;letter-spacing:.6px;text-align:center;padding:5px 8px calc(5px + env(safe-area-inset-bottom));border-top:1px solid #FDBA74}body{padding-bottom:28px}
+
+.foot,.tabbar{bottom:26px}
+
 </style>
 </head>
 <body>
@@ -317,6 +321,7 @@ h1:focus,h1:focus-visible{outline:none}
   <nav class="tabbar" id="tabbar" hidden aria-label="Espace client"></nav>
 </div>
 <div id="scrim" class="scrim" hidden><div class="sheet" role="dialog" aria-modal="true" id="sheet"></div></div>
+<div class="demofoot" role="note">DÉMONSTRATION · proposée par NTIC Strategy · données fictives</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>
 'use strict';
